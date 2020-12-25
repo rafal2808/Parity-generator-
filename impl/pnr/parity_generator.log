@@ -1,0 +1,28 @@
+Reading netlist file: "D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\gwsynthesis\parity_generator.vg"
+Parsing netlist file "D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\gwsynthesis\parity_generator.vg" completed
+Processing netlist completed
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Placement and routing completed
+Running timing analysis......
+[95%] Timing analysis completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\pnr\parity_generator.power.html" completed
+Generate file "D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\pnr\parity_generator.pin.html" completed
+Generate file "D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\pnr\parity_generator.rpt.html" completed
+Generate file "D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\pnr\parity_generator.rpt.txt" completed
+Generate file "D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\pnr\parity_generator.tr.html" completed
+Fri Dec 25 13:33:38 2020
+

@@ -1,0 +1,47 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.6.02Beta"
+//Fri Dec 25 13:33:35 2020
+
+//Source file index table:
+//file0 "\D:/Elektronika/FPGA/projekty/Tang_nano/parity_generator/src/parity_generator.vhd"
+`timescale 100 ps/100 ps
+module parity_generator (
+  input_bits,
+  parity
+)
+;
+input [1:0] input_bits;
+output parity;
+wire parity_d;
+wire [1:0] input_bits_d;
+wire VCC;
+wire GND;
+  IBUF input_bits_0_ibuf (
+    .O(input_bits_d[0]),
+    .I(input_bits[0]) 
+);
+  IBUF input_bits_1_ibuf (
+    .O(input_bits_d[1]),
+    .I(input_bits[1]) 
+);
+  OBUF parity_obuf (
+    .O(parity),
+    .I(parity_d) 
+);
+  LUT2 parity_d_s (
+    .F(parity_d),
+    .I0(input_bits_d[0]),
+    .I1(input_bits_d[1]) 
+);
+defparam parity_d_s.INIT=4'h9;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* parity_generator */

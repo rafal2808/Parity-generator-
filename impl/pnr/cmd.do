@@ -1,0 +1,9 @@
+-d D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\gwsynthesis\parity_generator.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\src\pin.cst
+-cfg D:\Elektronika\FPGA\projekty\Tang_nano\parity_generator\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
